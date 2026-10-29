@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you reuse this release, please cite the version-specific Zenodo record when available and consult LICENSE_SCOPE.md for third-party data terms."
+title: "Variation in 24 NF-kB regulatory genes across human populations: derived data and historical analysis code"
+version: 1.0.0
+type: software
+authors:
+  - family-names: "Maghembe"
+    given-names: "Reuben S."
+repository-code: "https://github.com/rmaghembe1/project6-nfkb-public-release"
+date-released: "2026-10-29"
+abstract: >-
+  Public release of author-derived population-genomic and external-annotation
+  tables and a historical source-code snapshot supporting analysis of 24 human
+  NF-kappaB regulatory genes across populations. The code snapshot is not a
+  fully executable end-to-end analytical workflow. Third-party data rights
+  and attribution conditions remain with their respective providers.
+keywords:
+  - NF-kappaB
+  - population genomics
+  - human genetic variation
+  - derived data
+  - research software
