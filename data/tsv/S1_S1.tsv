@@ -1,0 +1,119 @@
+S1  |  Gene/module definitions and N20 population eligibility
+Historical source-native values, query scopes and NA states preserved. See SOURCE_ATTRIBUTION.md and DATA_DICTIONARY.md.
+
+PRIMARY_24_GENE_ARCH  |  Gene-level architecture | PRIMARY_N20  |  24 original source rows
+source_row_number	analysis_id	analysis_type	gene_symbol	module_id	score_method	score	valid_unit_count	evaluable
+2	PRIMARY_N20	INFERENTIAL	BCL3	M2	MEDIAN_DELTA_AF	0.0067114093959731542	458	1
+3	PRIMARY_N20	INFERENTIAL	BIRC2	M3	MEDIAN_DELTA_AF	0.0067114093959731542	1620	1
+4	PRIMARY_N20	INFERENTIAL	BIRC3	M3	MEDIAN_DELTA_AF	0.0054945054945054949	1093	1
+5	PRIMARY_N20	INFERENTIAL	CHUK	M2	MEDIAN_DELTA_AF	0.0081967213114754103	1632	1
+6	PRIMARY_N20	INFERENTIAL	CYLD	M4	MEDIAN_DELTA_AF	0.0067114093959731542	2212	1
+7	PRIMARY_N20	INFERENTIAL	IKBKB	M2	MEDIAN_DELTA_AF	0.0068493150684931503	2650	1
+8	PRIMARY_N20	INFERENTIAL	IKBKG	M2	MEDIAN_DELTA_AF	0.0076923076923076927	383	1
+9	PRIMARY_N20	INFERENTIAL	MAP3K14	M3	MEDIAN_DELTA_AF	0.0067567567567567571	2100	1
+10	PRIMARY_N20	INFERENTIAL	NFKB1	M1	MEDIAN_DELTA_AF	0.0068493150684931503	4836	1
+11	PRIMARY_N20	INFERENTIAL	NFKB2	M1	MEDIAN_DELTA_AF	0.0056179775280898875	333	1
+12	PRIMARY_N20	INFERENTIAL	NFKBIA	M2	MEDIAN_DELTA_AF	0.0071942446043165471	197	1
+13	PRIMARY_N20	INFERENTIAL	NFKBIB	M2	MEDIAN_DELTA_AF	0.0067567567567567571	469	1
+14	PRIMARY_N20	INFERENTIAL	NFKBIE	M2	MEDIAN_DELTA_AF	0.0076335877862595417	300	1
+15	PRIMARY_N20	INFERENTIAL	OTULIN	M4	MEDIAN_DELTA_AF	0.0071942446043165471	2558	1
+16	PRIMARY_N20	INFERENTIAL	RBCK1	M4	MEDIAN_DELTA_AF	0.010101010101010102	1232	1
+17	PRIMARY_N20	INFERENTIAL	REL	M1	MEDIAN_DELTA_AF	0.0067114093959731542	2243	1
+18	PRIMARY_N20	INFERENTIAL	RELA	M1	MEDIAN_DELTA_AF	0.0068493150684931503	486	1
+19	PRIMARY_N20	INFERENTIAL	RELB	M1	MEDIAN_DELTA_AF	0.0084269662921348312	1628	1
+20	PRIMARY_N20	INFERENTIAL	RNF31	M4	MEDIAN_DELTA_AF	0.0081967213114754103	672	1
+21	PRIMARY_N20	INFERENTIAL	SHARPIN	M4	MEDIAN_DELTA_AF	0.007575757575757576	281	1
+22	PRIMARY_N20	INFERENTIAL	TNFAIP3	M4	MEDIAN_DELTA_AF	0.0061349693251533744	675	1
+23	PRIMARY_N20	INFERENTIAL	TNIP1	M4	MEDIAN_DELTA_AF	0.0081967213114754103	2697	1
+24	PRIMARY_N20	INFERENTIAL	TRAF2	M3	MEDIAN_DELTA_AF	0.0071942446043165471	2736	1
+25	PRIMARY_N20	INFERENTIAL	TRAF3	M3	MEDIAN_DELTA_AF	0.007575757575757576	6330	1
+
+PRIMARY_4_MODULE_ARCH  |  Module architecture | PRIMARY_N20  |  4 original source rows
+source_row_number	analysis_id	module_id	required_gene_count	evaluable_gene_count	module_median_gene_score	inference_status
+2	PRIMARY_N20	M1	5	5	0.0068493150684931503	EVALUABLE
+3	PRIMARY_N20	M2	7	7	0.0071942446043165471	EVALUABLE
+4	PRIMARY_N20	M3	5	5	0.0067567567567567571	EVALUABLE
+5	PRIMARY_N20	M4	7	7	0.007575757575757576	EVALUABLE
+
+POPULATION_80_DESCRIPTIVE  |  All descriptive population labels; filter all three N20 fields for 49 primary groups  |  80 original source rows
+source_row_number	grouping	group	autosomal_n	chrX_n	phased_n	autosomal_N20	chrX_N20	phased_N20	autosomal_N30	chrX_N30	phased_N30
+2	population	ACB	116	116	114	1	1	1	1	1	1
+3	population	ASW	74	74	71	1	1	1	1	1	1
+4	population	Adygei	17	17	17	0	0	0	0	0	0
+5	population	BEB	131	131	131	1	1	1	1	1	1
+6	population	Balochi	24	24	23	1	1	1	0	0	0
+7	population	BantuKenya	12	12	12	0	0	0	0	0	0
+8	population	BantuSouthAfrica	8	8	8	0	0	0	0	0	0
+9	population	Basque	24	23	23	1	1	1	0	0	0
+10	population	Bedouin	46	46	45	1	1	1	1	1	1
+11	population	BergamoItalian	12	11	11	0	0	0	0	0	0
+12	population	Biaka	26	26	23	1	1	1	0	0	0
+13	population	Bougainville	13	13	13	0	0	0	0	0	0
+14	population	Brahui	25	25	23	1	1	1	0	0	0
+15	population	Burusho	24	24	24	1	1	1	0	0	0
+16	population	CDX	93	93	93	1	1	1	1	1	1
+17	population	CEU	179	176	176	1	1	1	1	1	1
+18	population	CHB	103	103	103	1	1	1	1	1	1
+19	population	CHS	163	163	163	1	1	1	1	1	1
+20	population	CLM	132	130	130	1	1	1	1	1	1
+21	population	Cambodian	10	10	10	0	0	0	0	0	0
+22	population	Colombian	7	7	7	0	0	0	0	0	0
+23	population	Dai	9	9	9	0	0	0	0	0	0
+24	population	Daur	10	10	9	0	0	0	0	0	0
+25	population	Druze	42	42	42	1	1	1	1	1	1
+26	population	ESN	149	148	148	1	1	1	1	1	1
+27	population	FIN	99	98	98	1	1	1	1	1	1
+28	population	French	27	27	27	1	1	1	0	0	0
+29	population	GBR	91	90	90	1	1	1	1	1	1
+30	population	GIH	103	103	103	1	1	1	1	1	1
+31	population	GWD	178	176	176	1	1	1	1	1	1
+32	population	Han	33	33	33	1	1	1	1	1	1
+33	population	Hazara	20	20	20	1	1	1	0	0	0
+34	population	Hezhen	9	9	9	0	0	0	0	0	0
+35	population	IBS	157	156	151	1	1	1	1	1	1
+36	population	ITU	107	106	106	1	1	1	1	1	1
+37	population	JPT	104	102	102	1	1	1	1	1	1
+38	population	Japanese	29	29	28	1	1	1	0	0	0
+39	population	KHV	122	122	122	1	1	1	1	1	1
+40	population	Kalash	23	23	23	1	1	1	0	0	0
+41	population	Karitiana	12	12	12	0	0	0	0	0	0
+42	population	LWK	99	97	97	1	1	1	1	1	1
+43	population	Lahu	8	8	8	0	0	0	0	0	0
+44	population	MSL	99	98	98	1	1	1	1	1	1
+45	population	MXL	97	97	97	1	1	1	1	1	1
+46	population	Makrani	25	25	23	1	1	1	0	0	0
+47	population	Mandenka	23	23	23	1	1	1	0	0	0
+48	population	Maya	21	21	21	1	1	1	0	0	0
+49	population	Mbuti	14	14	14	0	0	0	0	0	0
+50	population	Miao	10	10	10	0	0	0	0	0	0
+51	population	Mongolian	10	10	10	0	0	0	0	0	0
+52	population	Mozabite	28	28	25	1	1	1	0	0	0
+53	population	Naxi	9	9	9	0	0	0	0	0	0
+54	population	NorthernHan	10	10	10	0	0	0	0	0	0
+55	population	Orcadian	15	15	15	0	0	0	0	0	0
+56	population	Oroqen	9	8	8	0	0	0	0	0	0
+57	population	PEL	122	122	122	1	1	1	1	1	1
+58	population	PJL	146	145	145	1	1	1	1	1	1
+59	population	PUR	139	138	138	1	1	1	1	1	1
+60	population	Palestinian	46	45	45	1	1	1	1	1	1
+61	population	PapuanHighlands	9	9	9	0	0	0	0	0	0
+62	population	PapuanSepik	8	8	8	0	0	0	0	0	0
+63	population	Pathan	24	24	24	1	1	1	0	0	0
+64	population	Pima	14	14	14	0	0	0	0	0	0
+65	population	Russian	25	25	25	1	1	1	0	0	0
+66	population	STU	114	114	114	1	1	1	1	1	1
+67	population	San	6	6	6	0	0	0	0	0	0
+68	population	Sardinian	27	27	27	1	1	1	0	0	0
+69	population	She	10	10	10	0	0	0	0	0	0
+70	population	Sindhi	24	24	23	1	1	1	0	0	0
+71	population	Surui	8	8	8	0	0	0	0	0	0
+72	population	TSI	107	103	103	1	1	1	1	1	1
+73	population	Tu	10	10	10	0	0	0	0	0	0
+74	population	Tujia	10	10	10	0	0	0	0	0	0
+75	population	Tuscan	8	8	8	0	0	0	0	0	0
+76	population	Uygur	10	10	6	0	0	0	0	0	0
+77	population	Xibo	9	9	9	0	0	0	0	0	0
+78	population	YRI	178	175	175	1	1	1	1	1	1
+79	population	Yakut	25	25	25	1	1	1	0	0	0
+80	population	Yi	10	10	10	0	0	0	0	0	0
+81	population	Yoruba	21	21	21	1	1	1	0	0	0

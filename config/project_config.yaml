@@ -1,0 +1,21 @@
+project_id: project6_nfkb_evolutionary_genomics
+project_title: "Population-resolved evolution of human NF-kB regulatory circuitry: canonical-noncanonical balance, ubiquitin editing and inflammatory-response tuning"
+reference_build: GRCh38
+primary_discovery_resource: gnomAD_HGDP_1kGP_joint_callset
+protocol_version: v1.0
+phase: Phase_A
+primary_panel_expected_genes: 24
+optional_boundary_genes_expected: 3
+core_promoter_definition:
+  upstream_bp: 2000
+  downstream_bp: 500
+primary_modules:
+  - M1_transcription_factor_core
+  - M2_IKK_IkB_activation
+  - M3_noncanonical_branch
+  - M4_ubiquitin_editing_restraint
+interpretation_rules:
+  frequency_only_is_not_function: true
+  avoid_deterministic_population_claims: true
+  response_qtl_required_for_principal_inflammatory_regulatory_claim: true
+  structure_followup_only_after_candidate_prioritization: true

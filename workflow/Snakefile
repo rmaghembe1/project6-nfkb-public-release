@@ -1,0 +1,23 @@
+configfile: "config/project_config.yaml"
+
+rule phaseA_local_validation:
+    input:
+        "results/qc/gene_panel_validation.json",
+        "results/phaseA/manifest_validation.json"
+
+rule freeze_gene_panel:
+    input: "config/gene_panel.tsv"
+    output:
+        panel="data/processed/nfkb_primary_gene_panel_frozen.tsv",
+        qc="results/qc/gene_panel_validation.json"
+    shell:
+        "python scripts/python/01_freeze_gene_panel.py --input {input} --output {output.panel} --qc {output.qc}"
+
+rule validate_phaseA_manifests:
+    input:
+        resources="docs/resources/resource_manifest.tsv",
+        anchors="docs/resources/anchor_manifest.tsv",
+        literature="docs/resources/literature_manifest.tsv"
+    output: "results/phaseA/manifest_validation.json"
+    shell:
+        "python scripts/python/02_validate_phaseA_manifests.py --resources {input.resources} --anchors {input.anchors} --literature {input.literature} --out {output}"

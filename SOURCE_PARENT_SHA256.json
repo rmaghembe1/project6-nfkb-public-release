@@ -1,0 +1,9 @@
+{
+  "parent_sha256": {
+    "R15": "f1ed909d0e19ede4bfa7027cd1b13c51e42f364ca96ebd5081fbd2b30a8e82b9",
+    "S1": "313279a97045137c62316b334b17c4619025f1c7b03c9c148e9c0a43dd1ce70e",
+    "S2": "56966df22e442366374059e6f9f4c9b1a87cfcac4a1d405f071945332825e197"
+  },
+  "crossref_reviewed_sha256": "5aec456630417484c27789a4a3267bedbfce9638407cc8b8b3c546e16e3e7800",
+  "no_zenodo_doi_yet": true
+}

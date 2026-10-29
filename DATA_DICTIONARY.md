@@ -1,0 +1,3 @@
+# Derived tables
+S1 File sheets S1-S7: gene architecture and eligibility; module permutation comparisons; priority alleles; genotype state/ploidy; 980 strict haplotype rows and QC; strict LD 2450 rows (1471 numeric and 979 NA); historical TNFAIP3/A20 context. Population-aggregate count-1-to-4 rows remain source-native, not individual-level records.
+S2 File: TABLE1_7_LOCI (7); GTEX_265_RECORDS (265); GTEX_26_PARTITIONS (26); GWAS_6_FIRST_PAGES (6); REQUEST_LEDGER_18; SOURCE_REGISTER_27; QUERY_BOUNDARIES_7. Exact query NQ, scoped NA and queried numeric zero differ. All 14 TSV mirrors retain source text tokens.

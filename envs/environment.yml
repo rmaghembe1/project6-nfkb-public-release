@@ -1,0 +1,22 @@
+name: project6_nfkb
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pandas
+  - pyyaml
+  - snakemake-minimal
+  - bcftools
+  - htslib
+  - tabix
+  - bedtools
+  - plink2
+  - vcftools
+  - samtools
+  - curl
+  - wget
+  - git
+  - pip
+  - jsonschema

@@ -1,0 +1,11 @@
+Seven query-status and exact-variant identity boundaries
+Historical source-native values, query scopes and NA states preserved. See SOURCE_ATTRIBUTION.md and DATA_DICTIONARY.md.
+
+gene	GRCh38 allele	rsid	PhaseG GTEx route	GTEx Query State	GWAS Query State	table1 code	source scope	evidence limit
+TNFAIP3	chr6:137868699:T:TA	rs5880363	NOT_QUERIED_IDENTITY_UNRESOLVED	NQ	0	NQ/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+IKBKG	chrX:154543081:T:C	rs2472393	EXACT_MATCH_R2	212	0	R5/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+IKBKB	chr8:42283286:A:G	rs4560769	EXACT_MATCH_RECOVERED_R5	35	1	R5/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+TNIP1	chr5:151047611:G:C	rs7734456	EXACT_MATCH_R2	4	0	R2/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+TRAF3	chr14:102825361:A:G	rs7140494	EXACT_MATCH_R2	9	0	R2/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+RBCK1	chr20:420465:A:AG	rs11480357	EXACT_MATCH_R2	5	0	R2/Q	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
+BIRC3	chr11:102324736:G:T	rs924735278	NOT_AUTHORIZED	NA	NA	NA/NA	R2+R5 frozen exact-source return; not new queries	NCBI raw response files not exported; rely on frozen bridge
